@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Projects | HASANAAT ORGANIZATION ORGANIZATION</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .page-header-bg {
+            background-image: linear-gradient(rgba(0, 219, 18, 0.6), rgba(34, 60, 175, 0.6)), url('https://images.unsplash.com/photo-1488521787991-ed7b2f28a727?q=80&w=2070&auto=format&fit=crop');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Header -->
+    <header id="header" class="bg-white shadow-md fixed w-full top-0 z-50 transition-all duration-300">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold text-green-600">HASANAAT ORGANIZATION</a>
+            <nav class="hidden md:flex items-center space-x-8">
+                <a href="index.html#home" class="text-gray-600 hover:text-green-600 transition-colors">Home</a>
+                <a href="index.html#about" class="text-gray-600 hover:text-green-600 transition-colors">About Us</a>
+                <a href="projects.html" class="text-green-600 font-semibold hover:text-green-700 transition-colors">Projects</a>
+                <a href="photo_Gallary.html" class="text-gray-600 hover:text-green-600 transition-colors">Gallery</a>
+                <a href="index.html#contact" class="text-gray-600 hover:text-green-600 transition-colors">Contact</a>
+            </nav>
+            <a href="Donate_page.html" class="hidden md:inline-block bg-blue-600 text-white font-semibold px-6 py-2 rounded-lg shadow-lg hover:bg-green-700 transition-transform transform hover:scale-105">
+                Donate Now
+            </a>
+            <button id="mobile-menu-button" class="md:hidden">
+                <i data-lucide="menu" class="w-6 h-6 text-gray-700"></i>
+            </button>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white px-6 pb-4">
+            <a href="index.html#home" class="block py-2 text-gray-600 hover:text-green-600">Home</a>
+            <a href="index.html#about" class="block py-2 text-gray-600 hover:text-green-600">About Us</a>
+            <a href="projects.html" class="block py-2 text-green-600 font-semibold">Our Projects</a>
+            <a href="photo_Gallary.html" class="block py-2 text-gray-600 hover:text-green-600">Gallery</a>
+            <a href="index.html#contact" class="block py-2 text-gray-600 hover:text-green-600">Contact</a>
+            <a href="Donate_page.html" class="block mt-4 bg-blue-600 text-white text-center font-semibold px-6 py-2 rounded-lg shadow-lg hover:bg-green-700">
+                Donate Now
+            </a>
+        </div>
+    </header>
+    <main>
+        <!-- Page Header -->
+        <section class="page-header-bg h-80 flex items-center justify-center pt-20">
+            <div class="container mx-auto px-6 text-center text-white">
+                <h1 class="text-4xl md:text-5xl font-extrabold">Our Projects</h1>
+                <p class="text-lg md:text-xl max-w-3xl mx-auto mt-4 text-gray-200">
+                    Discover how Togetherness support is making a tangible difference in communities.
+                </p>
+            </div>
+        </section>
+
+        <!-- Projects Details Section -->
+        <section id="projects-details" class="py-20 bg-white">
+            <div class="container mx-auto px-6 space-y-24">
+
+                <!-- Project 1: Quran Donation -->
+                <div id="quran-donation" class="flex flex-col md:flex-row items-center gap-12">
+                    <div class="md:w-1/2">
+                        <img src="IMG - Quran Donations.jpg" alt="Quran Donation" class="w-full h-auto object-cover rounded-xl shadow-lg">
+                    </div>
+                    <div class="md:w-1/2">
+                        <h2 class="text-3xl font-bold mb-4">Quran Donation</h2>
+                        <p class="text-gray-600 mb-6 leading-relaxed">The Prophet Muhammad (ﷺ) said, "The best of you are those who learn the Qur'an and teach it." Our Quran Donation project aims to facilitate this noble act by providing copies of the Holy Quran to mosques, Islamic schools, and individuals who cannot afford one. Your donation helps spread the divine message and earns you immense reward.</p>
+                        <a href="Donate_page.html" class="inline-block bg-green-600 text-white font-bold px-8 py-3 rounded-lg shadow-lg hover:bg-green-700 transition-transform transform hover:scale-105">
+                            Donate to this Project
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 2: Islamic Books Donations -->
+                <div id="islamic-books" class="flex flex-col md:flex-row-reverse items-center gap-12">
+                    <div class="md:w-1/2">
+                        <img src="IMG-Books Donation.jpg" alt="Islamic Books Donation" class="w-full h-auto object-cover rounded-xl shadow-lg">
+                    </div>
+                    <div class="md:w-1/2">
+                        <h2 class="text-3xl font-bold mb-4">Islamic Books Donations</h2>
+                        <p class="text-gray-600 mb-6 leading-relaxed">Knowledge is a cornerstone of Islam. This project focuses on distributing a wide range of Islamic books, from the Seerah of the Prophet (ﷺ) to Fiqh and Tafsir, to libraries and communities. By enhancing Islamic literacy, we empower individuals to deepen their faith and understanding. Support this cause to be a part of spreading beneficial knowledge.</p>
+                         <a href="Donate_page.html" class="inline-block bg-green-600 text-white font-bold px-8 py-3 rounded-lg shadow-lg hover:bg-green-700 transition-transform transform hover:scale-105">
+                            Donate to this Project
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 3: HASANAAT ORGANIZATION Food Drive -->
+                <div id="food-drive" class="flex flex-col md:flex-row items-center gap-12">
+                    <div class="md:w-1/2">
+                        <img src="IMG-Food Drive.jpg" alt="Food Drive" class="w-full h-auto object-cover rounded-xl shadow-lg">
+                    </div>
+                    <div class="md:w-1/2">
+                        <h2 class="text-3xl font-bold mb-4">HASANAAT ORGANIZATION Food Drive</h2>
+                        <p class="text-gray-600 mb-6 leading-relaxed">"He is not a believer who eats his fill while his neighbor beside him is hungry." Inspired by this teaching, our food drives provide essential sustenance to families, orphans, and the elderly. We distribute food packages and organize community kitchens to combat hunger and ensure no one in our community goes to bed hungry.</p>
+                         <a href="Donate_page.html" class="inline-block bg-green-600 text-white font-bold px-8 py-3 rounded-lg shadow-lg hover:bg-green-700 transition-transform transform hover:scale-105">
+                            Donate to this Project
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 4: Ghusl Room Building -->
+                 <div id="ghusl-room" class="flex flex-col md:flex-row-reverse items-center gap-12">
+                    <div class="md:w-1/2">
+                        <img src="IMG-Ghusl room Construction.jpg" alt="Ghusl room building" class="w-full h-auto object-cover rounded-xl shadow-lg">
+                    </div>
+                    <div class="md:w-1/2">
+                        <h2 class="text-3xl font-bold mb-4">Ghusl Room Building</h2>
+                        <p class="text-gray-600 mb-6 leading-relaxed">Fulfilling the final rights of a Muslim is a communal obligation (Fard Kifayah). This project involves constructing and maintaining dedicated Ghusl facilities for the ritual washing of the deceased. By contributing, you help ensure our brothers and sisters are given a dignified and Islamically-compliant final farewell.</p>
+                         <a href="Donate_page.html" class="inline-block bg-green-600 text-white font-bold px-8 py-3 rounded-lg shadow-lg hover:bg-green-700 transition-transform transform hover:scale-105">
+                            Donate to this Project
+                        </a>
+                    </div>
+                </div>
+
+                 <!-- Project 5: Prison Visit -->
+                <div id="prison-visit" class="flex flex-col md:flex-row items-center gap-12">
+                    <div class="md:w-1/2">
+                        <img src="IMG-Prison Visit.jpg" alt="Prison Visit" class="w-full h-auto object-cover rounded-xl shadow-lg">
+                    </div>
+                    <div class="md:w-1/2">
+                        <h2 class="text-3xl font-bold mb-4">Prison Visit</h2>
+                        <p class="text-gray-600 mb-6 leading-relaxed">Islam teaches compassion and the possibility of redemption. Our prison visit program provides spiritual counseling, Islamic education, and moral support to inmates. We aim to foster rehabilitation and help individuals reconnect with their faith, preparing them for a positive reintegration into society upon release.</p>
+                         <a href="Donate_page.html" class="inline-block bg-green-600 text-white font-bold px-8 py-3 rounded-lg shadow-lg hover:bg-green-700 transition-transform transform hover:scale-105">
+                            Donate to this Project
+                        </a>
+                    </div>
+                </div>
+
+                 <!-- Project 6: Tiling of Imam House -->
+                 <div id="imam-house" class="flex flex-col md:flex-row-reverse items-center gap-12">
+                    <div class="md:w-1/2">
+                        <img src="IMG-Tiling of Imam House.jpg" alt="Tiling Imam House" class="w-full h-auto object-cover rounded-xl shadow-lg">
+                    </div>
+                    <div class="md:w-1/2">
+                        <h2 class="text-3xl font-bold mb-4">Tiling of Imam House</h2>
+                        <p class="text-gray-600 mb-6 leading-relaxed">Our Imams are pillars of our community, providing guidance and leadership. This project focuses on improving the living conditions of our Imams by undertaking necessary renovations and repairs, such as tiling their homes. Supporting this project is a way of honoring their service and ensuring they can live in a dignified environment.</p>
+                         <a href="Donate_page.html" class="inline-block bg-green-600 text-white font-bold px-8 py-3 rounded-lg shadow-lg hover:bg-green-700 transition-transform transform hover:scale-105">
+                            Donate to this Project
+                        </a>
+                    </div>
+                </div>
+                 <!-- Project 7: Ghusl Items -->
+                 <div id="imam-house" class="flex flex-col md:flex-row-reverse items-center gap-12">
+                    <div class="md:w-1/2">
+                        <video width="240" height="400" controls>
+                        <source src="VID-Ghusi Bed Donation Drive.mp4" type="video/mp4">
+                    </div>
+                    <div class="md:w-1/2">
+                        <h2 class="text-3xl font-bold mb-4">Ghusl Items</h2>
+                        <p class="text-gray-600 mb-6 leading-relaxed">This project involves purchasing and maintaining dedicated Ghusl items for the ritual washing of the deceased. Fulfilling the final rights of a Muslim is a communal obligation (Fard Kifayah).</p>
+                         <a href="Donate_page.html" class="inline-block bg-green-600 text-white font-bold px-8 py-3 rounded-lg shadow-lg hover:bg-green-700 transition-transform transform hover:scale-105">
+                            Donate to this Project
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-green-800 text-white">
+        <div class="container mx-auto px-6 py-8">
+            <div class="flex flex-col md:flex-row justify-between items-center text-center md:text-left gap-6">
+                <div class="flex-shrink-0">
+                    <h3 class="text-2xl font-bold text-white mb-2">Hassanat</h3>
+                    <p class="text-gray-400 max-w-sm">Spreading Hope, One Good Deed at a Time.</p>
+                </div>
+                <div class="flex items-center gap-6">
+                    <ul class="flex space-x-6">
+                        <li><a href="index.html#about" class="text-gray-400 hover:text-white">About</a></li>
+                        <li><a href="projects.html" class="text-gray-400 hover:text-white">Projects</a></li>
+                        <li><a href="Donate_page.html" class="text-gray-400 hover:text-white">Donate</a></li>
+                    </ul>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white"><i data-lucide="facebook" class="w-6 h-6"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i data-lucide="twitter" class="w-6 h-6"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i data-lucide="instagram" class="w-6 h-6"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i data-lucide="Tiktok" class="w-6 h-6"></i></a>
+                    </div>
+                </div>
+            </div>
+             <div class="mt-8 border-t border-green-700 pt-6 text-center text-gray-400 text-sm">
+                &copy; <span id="year">2025</span> HASANAAT ORGANIZATION. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Initialize Lucide icons
+            lucide.createIcons();
+
+            // Mobile menu toggle
+            const mobileMenuButton = document.getElementById('mobile-menu-button');
+            const mobileMenu = document.getElementById('mobile-menu');
+            mobileMenuButton.addEventListener('click', () => {
+                mobileMenu.classList.toggle('hidden');
+            });
+            
+            // Dynamic year for footer
+            const yearEl = document.getElementById('year');
+            if (yearEl) {
+                yearEl.textContent = new Date().getFullYear();
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Projects | HASANAAT ORGANIZATION ORGANIZATION</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .page-header-bg {
+            background-image: linear-gradient(rgba(0, 219, 18, 0.6), rgba(34, 60, 175, 0.6)), url('https://images.unsplash.com/photo-1488521787991-ed7b2f28a727?q=80&w=2070&auto=format&fit=crop');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Header -->
+    <header id="header" class="bg-white shadow-md fixed w-full top-0 z-50 transition-all duration-300">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold text-green-600">HASANAAT ORGANIZATION</a>
+            <nav class="hidden md:flex items-center space-x-8">
+                <a href="index.html#home" class="text-gray-600 hover:text-green-600 transition-colors">Home</a>
+                <a href="index.html#about" class="text-gray-600 hover:text-green-600 transition-colors">About Us</a>
+                <a href="projects.html" class="text-green-600 font-semibold hover:text-green-700 transition-colors">Projects</a>
+                <a href="photo_Gallary.html" class="text-gray-600 hover:text-green-600 transition-colors">Gallery</a>
+                <a href="index.html#contact" class="text-gray-600 hover:text-green-600 transition-colors">Contact</a>
+            </nav>
+            <a href="Donate_page.html" class="hidden md:inline-block bg-blue-600 text-white font-semibold px-6 py-2 rounded-lg shadow-lg hover:bg-green-700 transition-transform transform hover:scale-105">
+                Donate Now
+            </a>
+            <button id="mobile-menu-button" class="md:hidden">
+                <i data-lucide="menu" class="w-6 h-6 text-gray-700"></i>
+            </button>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white px-6 pb-4">
+            <a href="index.html#home" class="block py-2 text-gray-600 hover:text-green-600">Home</a>
+            <a href="index.html#about" class="block py-2 text-gray-600 hover:text-green-600">About Us</a>
+            <a href="projects.html" class="block py-2 text-green-600 font-semibold">Our Projects</a>
+            <a href="photo_Gallary.html" class="block py-2 text-gray-600 hover:text-green-600">Gallery</a>
+            <a href="index.html#contact" class="block py-2 text-gray-600 hover:text-green-600">Contact</a>
+            <a href="Donate_page.html" class="block mt-4 bg-blue-600 text-white text-center font-semibold px-6 py-2 rounded-lg shadow-lg hover:bg-green-700">
+                Donate Now
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Donation Section -->
+        <section id="donate" class="py-20 bg-blue-700 text-white">
+            <div class="container mx-auto px-6 text-center">
+                <!-- Logo -->
+                <div class="mb-6">
+                    <div class="inline-block bg-white/20 backdrop-blur-sm p-4 rounded-full">
+                        <img src="logo hasanaat.png" width= 200 height= 100
+                    </div>
+                </div>
+                <h2 class="text-3xl md:text-4xl font-bold">Your Donation Makes a Difference</h2>
+                <p class="mt-4 max-w-2xl mx-auto">Every contribution, big or small, brings us one step closer to a world without poverty and suffering. 100% of your donation goes directly to our projects.</p>
+                <div class="max-w-2xl mx-auto bg-white text-gray-800 rounded-xl shadow-2xl p-8 mt-10">
+                    <h3 class="text-2xl font-bold mb-6">Choose Your Donation Amount</h3>
+                    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
+                        <button class="donation-amount bg-gray-100 p-4 rounded-lg font-bold text-lg hover:bg-green-100 border-2 border-transparent focus:border-green-500 focus:bg-green-100">ksh 50</button>
+                        <button class="donation-amount bg-gray-100 p-4 rounded-lg font-bold text-lg hover:bg-green-100 border-2 border-transparent focus:border-green-500 focus:bg-green-100">Ksh 100</button>
+                        <button class="donation-amount bg-gray-100 p-4 rounded-lg font-bold text-lg hover:bg-green-100 border-2 border-transparent focus:border-green-500 focus:bg-green-100">ksh 500</button>
+                        <button class="donation-amount bg-gray-100 p-4 rounded-lg font-bold text-lg hover:bg-green-100 border-2 border-transparent focus:border-green-500 focus:bg-green-100">Ksh 1000</button>
+                    </div>
+                    <div class="mb-6">
+                        <label for="custom-amount" class="sr-only">Custom Amount</label>
+                        <input type="number" id="custom-amount" placeholder="Or Enter Custom Amount (ksh)" class="w-full p-4 rounded-lg border border-gray-300 focus:ring-2 focus:ring-green-500 focus:outline-none text-center">
+                    </div>
+                    <button class="w-full bg-green-600 text-white font-bold text-xl py-4 rounded-lg shadow-lg hover:bg-green-700 transition-transform transform hover:scale-105">
+                        Donate Securely
+                    </button>
+                    <p class="text-xs text-gray-500 mt-4">Secure payments processed by Mpesa. All donations are tax-deductible.</p>
+                </div>
+            </div>
+        </section>
+        <!-- Buy Goods Section -->
+        <section id="projects-details" class="py-20 bg-white">
+            <div class="container mx-auto px-6 space-y-24">
+
+                <!-- Project 1: Quran Donation -->
+                <div id="quran-donation" class="flex flex-col md:flex-row items-center gap-12">
+                    <div class="md:w-1/2">
+                        <img src="#" alt="Mpesa Buy Goods" class="w-full h-auto object-cover rounded-xl shadow-lg">
+                    </div>
+                    <div class="md:w-1/2">
+                        <h2 class="text-3xl font-bold mb-4">Mpesa Buy Goods</h2>
+                        <p class="text-gray-600 mb-6 leading-relaxed">Till No: 5622106</p>
+                        <a href="#" class="inline-block bg-green-600 text-white font-bold px-8 py-3 rounded-lg shadow-lg hover:bg-green-700 transition-transform transform hover:scale-105">
+                            Thank You.
+                        </a>
+                    </div>
+                </div>
+                <!-- Donate 2: Paybill -->
+                <div id="quran-donation" class="flex flex-col md:flex-row items-center gap-12">
+                    <div class="md:w-1/2">
+                        <img src="#" alt="MPESA PAYBILL" class="w-full h-auto object-cover rounded-xl shadow-lg">
+                    </div>
+                    <div class="md:w-1/2">
+                        <h2 class="text-3xl font-bold mb-4">MPESA PAYBILL</h2>
+                        <p class="text-gray-600 mb-6 leading-relaxed">PAYBILL NO: 625625</p>
+                        <p class="text-gray-600 mb-6 leading-relaxed">ACC NO: 20143611</p>
+                        <p class="text-gray-600 mb-6 leading-relaxed">National Bank Of Kenya</p>
+                        <a href="#" class="inline-block bg-green-600 text-white font-bold px-8 py-3 rounded-lg shadow-lg hover:bg-green-700 transition-transform transform hover:scale-105">
+                            Thank You.
+                        </a>
+                    </div>
+                </div>
+                <!-- Donate 3: Bank Accounts -->
+                <div id="quran-donation" class="flex flex-col md:flex-row items-center gap-12">
+                    <div class="md:w-1/2">
+                        <img src="#" alt="BANK ACCOUNTS" class="w-full h-auto object-cover rounded-xl shadow-lg">
+                    </div>
+                    <div class="md:w-1/2">
+                        <h2 class="text-3xl font-bold mb-4">BANK ACCOUNTS</h2>
+                        <p class="text-gray-600 mb-6 leading-relaxed">KCB BANK ACC: ____________</p>
+                        <p class="text-gray-600 mb-6 leading-relaxed">NATIONAL BANK ACC: ________</p>
+                        <a href="#" class="inline-block bg-green-600 text-white font-bold px-8 py-3 rounded-lg shadow-lg hover:bg-green-700 transition-transform transform hover:scale-105">
+                            Thank You.
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+
+    <!-- Footer -->
+    <footer class="bg-green-800 text-white">
+        <div class="container mx-auto px-6 py-8">
+            <div class="flex flex-col md:flex-row justify-between items-center text-center md:text-left gap-6">
+                <div class="flex-shrink-0">
+                    <h3 class="text-2xl font-bold text-white mb-2">Hassanat</h3>
+                    <p class="text-gray-400 max-w-sm">Spreading Hope, One Good Deed at a Time.</p>
+                </div>
+                <div class="flex items-center gap-6">
+                    <ul class="flex space-x-6">
+                        <li><a href="index.html#about" class="text-gray-400 hover:text-white">About</a></li>
+                        <li><a href="projects.html" class="text-gray-400 hover:text-white">Projects</a></li>
+                        <li><a href="Donate_page.html" class="text-gray-400 hover:text-white">Donate</a></li>
+                    </ul>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white"><i data-lucide="facebook" class="w-6 h-6"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i data-lucide="twitter" class="w-6 h-6"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i data-lucide="instagram" class="w-6 h-6"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i data-lucide="Tiktok" class="w-6 h-6"></i></a>
+                    </div>
+                </div>
+            </div>
+             <div class="mt-8 border-t border-green-700 pt-6 text-center text-gray-400 text-sm">
+                &copy; <span id="year">2025</span> HASANAAT ORGANIZATION. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Initialize Lucide icons
+            lucide.createIcons();
+
+            // Mobile menu toggle
+            const mobileMenuButton = document.getElementById('mobile-menu-button');
+            const mobileMenu = document.getElementById('mobile-menu');
+            mobileMenuButton.addEventListener('click', () => {
+                mobileMenu.classList.toggle('hidden');
+            });
+            
+            // Dynamic year for footer
+            const yearEl = document.getElementById('year');
+            if (yearEl) {
+                yearEl.textContent = new Date().getFullYear();
+            }
+        });
+    </script>
+</body>
+</html>
